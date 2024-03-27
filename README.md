@@ -1,7 +1,6 @@
-# Financely
+# Financely (Work In Progress)
 
 ## A financial tool for connecting all banking accounts to one dashboard for easy tracking and monitoring of funds.
-# Financely (Work In Progress)
 
 ### Project Goals:
 -
