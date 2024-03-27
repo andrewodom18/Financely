@@ -18,18 +18,18 @@ import NotFound from './views/not-found';
 
 const App = () => {
   return (
-    <Router>
-      <Switch>
-        <Route component={Home} exact path='/' />
-        <Route component={Features} exact path='/features' />
-        <Route component={Register} exact path='/register' />
-        <Route component={Contact} exact path='/contact' />
-        <Route component={Login} exact path='/login' />
-        <Route component={About} exact path='/about' />
-        <Route component={NotFound} path='**' />
-        <Redirect to='**' />
-      </Switch>
-    </Router>
+      <Router>
+        <Switch>
+          <Route component={Home} exact path='/' />
+          <Route component={Features} exact path='/features' />
+          <Route component={Register} exact path='/register' />
+          <Route component={Contact} exact path='/contact' />
+          <Route component={Login} exact path='/login' />
+          <Route component={About} exact path='/about' />
+          <Route component={NotFound} path='**' />
+          <Redirect to='**' />
+        </Switch>
+      </Router>
   );
 };
 
