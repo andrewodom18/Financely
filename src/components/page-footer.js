@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './page-header-footer.css'
 
 function PageFooter() {
@@ -55,4 +56,4 @@ function PageFooter() {
     </div>
   );
 }
-export default PageFooter;
+export default PageFooter

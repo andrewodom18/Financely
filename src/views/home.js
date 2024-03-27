@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 import PageHeader from '../components/page-header';
+import PageFooter from '../components/page-footer';
 import FeatureCard from '../components/feature-card';
 import QuestionContainer from '../components/question-container';
 import './home.css';
@@ -492,6 +493,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
+      <PageFooter />
     </div>
   );
 };
