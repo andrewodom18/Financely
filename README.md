@@ -1,6 +1,6 @@
 # Financely
 
-## A financial tool for monitoring and tracking spending/saving trends across all connected accounts.
+## A financial tool for connecting all banking accounts to one dashboard for easy tracking and monitoring of funds.
 
 ### Project Details:
 - 
