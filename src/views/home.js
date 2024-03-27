@@ -1,22 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import { Helmet } from 'react-helmet';
 
 import PageHeader from '../components/page-header';
 import PageFooter from '../components/page-footer';
 import FeatureCard from '../components/feature-card';
 import QuestionContainer from '../components/question-container';
+
 import './home.css';
+
 
 const Home = (props) => {
   return (
     <div className='home-container'>
+      <PageHeader />
       <Helmet>
         <title>Financely</title>
         <meta property='og:title' content='Financely' />
       </Helmet>
-      <PageHeader />
       <div className='home-hero'>
         <div className='heroContainer home-hero1'>
           <div className='home-container01'>
