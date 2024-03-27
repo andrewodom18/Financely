@@ -1,4 +1,9 @@
+body {
+  background-color: rgb(20, 26, 34);
+}
+
 .not-found-container {
+  color: rgb(255, 255, 255);
   width: 100%;
   display: flex;
   overflow: auto;
@@ -15,7 +20,7 @@
   justify-content: center;
 }
 .not-found-text1 {
-  color: rgb(38, 38, 38);
+  color: rgb(0, 119, 229);
   font-size: 252px;
   margin-top: -20px;
   font-weight: 900;
